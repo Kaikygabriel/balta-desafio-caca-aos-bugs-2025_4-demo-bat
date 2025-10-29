@@ -1,6 +1,3 @@
 ﻿namespace BugStore.Domain.Exceptions;
 
-public class ProductException
-{
-    
-}
+public class ProductException(string menssage=""):ApplicationException(menssage);

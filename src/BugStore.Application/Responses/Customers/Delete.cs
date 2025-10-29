@@ -1,6 +1,3 @@
 namespace BugStore.Application.Responses.Customers;
 
-public class Delete
-{
-    
-}
+public record Delete(bool Result);
