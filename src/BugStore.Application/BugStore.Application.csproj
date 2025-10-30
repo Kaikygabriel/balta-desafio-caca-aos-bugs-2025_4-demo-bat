@@ -14,9 +14,4 @@
       <ProjectReference Include="..\BugStore.Domain\BugStore.Domain.csproj" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="Handlers\Ordes\" />
-      <Folder Include="Handlers\Products\" />
-    </ItemGroup>
-
 </Project>

@@ -1,6 +1,6 @@
+using BugStore.Domain.Entities;
+using MediatorX.Core.Abstraction.Interfaces;
+
 namespace BugStore.Application.Requests.Orders;
 
-public class Create
-{
-    
-}
+public record Create(Order Order): IRequest<Responses.Orders.Create>;
