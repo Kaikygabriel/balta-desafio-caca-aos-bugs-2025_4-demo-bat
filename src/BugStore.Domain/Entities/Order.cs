@@ -2,7 +2,7 @@ namespace BugStore.Domain.Entities;
 
 public class Order : Entity 
 {
-    protected Order(){}
+    public Order(){}
     public Order(Guid customerId, Customer customer, DateTime createdAt, DateTime updatedAt)
     {
         CustomerId = customerId;

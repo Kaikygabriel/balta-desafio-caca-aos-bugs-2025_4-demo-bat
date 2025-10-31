@@ -4,7 +4,7 @@ namespace BugStore.Domain.Entities;
 
 public class Product : Entity
 {
-    protected Product()
+    public Product()
     {
         
     }

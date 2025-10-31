@@ -6,7 +6,7 @@ public interface IUnitOfWork
 {
     public IRepository<Order> RepositoryOrder { get;}
 
-    public IRepository<Customer> RepositoryProduct { get;}
+    public IRepository<Product> RepositoryProduct { get;}
 
     public IRepository<Customer> RepositoryCustomer { get;}
     Task CommitAsync();

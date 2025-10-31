@@ -5,7 +5,7 @@ namespace BugStore.Domain.Entities;
     public class OrderLine : Entity
 {
 
-    protected OrderLine()
+    public OrderLine()
     {
         
     }
@@ -18,6 +18,8 @@ namespace BugStore.Domain.Entities;
         ProductId = productId;
         Product = product;
     }
+
+  
 
     public Guid OrderId { get; set; }
     

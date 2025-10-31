@@ -4,7 +4,6 @@ namespace BugStore.Domain.Entities;
 
 public class Customer : Entity
 {
-    protected Customer(){}
     public Customer(string name, string email, string phone, DateTime birthDate)
     {
         if (string.IsNullOrWhiteSpace(name) ||
@@ -15,6 +14,11 @@ public class Customer : Entity
         Email = email;
         Phone = phone;
         BirthDate = birthDate;
+    }
+
+    public Customer()
+    {
+        
     }
 
     public Guid Id { get; set; }

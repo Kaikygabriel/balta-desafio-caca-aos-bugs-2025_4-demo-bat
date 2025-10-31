@@ -1,6 +1,5 @@
+using BugStore.Domain.Entities;
+
 namespace BugStore.Application.Responses.Products;
 
-public class GetById
-{
-    
-}
+public record GetById(Product Product);
